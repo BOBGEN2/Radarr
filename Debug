@@ -1,0 +1,29 @@
+2023-01-15 03:50:28.0|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:28.0|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (48 ms)
+2023-01-15 03:50:29.7|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:29.7|Debug|RootFolderService|Generating list of unmapped folders
+2023-01-15 03:50:29.7|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:29.7|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (43 ms)
+2023-01-15 03:50:31.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:31.3|Debug|RootFolderService|Generating list of unmapped folders
+2023-01-15 03:50:31.3|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:31.3|Debug|Api|[GET] /api/v3/rootFolder/4?timeout=false: 200.OK (61 ms)
+2023-01-15 03:50:31.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:31.4|Debug|Parser|Parsing string '1 Stargate (1994) Film 720p'
+2023-01-15 03:50:31.4|Debug|Parser|Movie Parsed. 1 Stargate - 1994 
+2023-01-15 03:50:31.4|Debug|Parser|Release Group parsed: 
+2023-01-15 03:50:31.4|Debug|Parser|Languages parsed: Unknown
+2023-01-15 03:50:31.4|Debug|QualityParser|Trying to parse quality for 1 Stargate (1994) Film 720p
+2023-01-15 03:50:31.4|Debug|Parser|Quality parsed: HDTV-720p v1
+2023-01-15 03:50:31.4|Debug|Parser|Edition parsed: 
+2023-01-15 03:50:32.4|Debug|Api|[GET] /api/v3/movie/lookup?term=1%20Stargate%20(1994)%20Film%20720p: 200.OK (985 ms)
+2023-01-15 03:50:33.6|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:33.6|Debug|Parser|Parsing string '10 Cloverfield Lane (2016)'
+2023-01-15 03:50:33.6|Debug|Parser|Movie Parsed. 10 Cloverfield Lane - 2016 
+2023-01-15 03:50:33.6|Debug|Parser|Release Group parsed: 
+2023-01-15 03:50:33.7|Debug|Parser|Languages parsed: Unknown
+2023-01-15 03:50:33.7|Debug|QualityParser|Trying to parse quality for 10 Cloverfield Lane (2016)
+2023-01-15 03:50:33.7|Debug|Parser|Quality parsed: Unknown v1
+2023-01-15 03:50:33.7|Debug|Parser|Edition parsed: 
+2023-01-15 03:50:34.7|Debug|Api|[GET] /api/v3/movie/lookup?term=10%20Cloverfield%20Lane%20(2016): 200.OK (1061 ms)
+2023-01-15 03:50:34.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
