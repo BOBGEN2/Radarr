@@ -1,0 +1,93 @@
+2023-01-15 03:50:28.0|Debug|RootFolderService|Generating list of unmapped folders
+2023-01-15 03:50:28.0|Trace|ConfigService|Using default config value for 'recyclebin' defaultValue:''
+2023-01-15 03:50:28.0|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:28.0|Trace|Http|Res: 12777 [GET] /api/v3/rootFolder: 200.OK (48 ms)
+2023-01-15 03:50:28.0|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (48 ms)
+2023-01-15 03:50:29.7|Trace|Http|Req: 12779 [GET] /api/v3/rootFolder (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:29.7|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:29.7|Debug|RootFolderService|Generating list of unmapped folders
+2023-01-15 03:50:29.7|Trace|ConfigService|Using default config value for 'recyclebin' defaultValue:''
+2023-01-15 03:50:29.7|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:29.7|Trace|Http|Res: 12779 [GET] /api/v3/rootFolder: 200.OK (43 ms)
+2023-01-15 03:50:29.7|Debug|Api|[GET] /api/v3/rootFolder: 200.OK (43 ms)
+2023-01-15 03:50:31.3|Trace|Http|Req: 12780 [GET] /api/v3/rootFolder/4?timeout=false (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:31.3|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:31.3|Debug|RootFolderService|Generating list of unmapped folders
+2023-01-15 03:50:31.3|Trace|ConfigService|Using default config value for 'recyclebin' defaultValue:''
+2023-01-15 03:50:31.3|Debug|RootFolderService|998 unmapped folders detected.
+2023-01-15 03:50:31.3|Trace|Http|Res: 12780 [GET] /api/v3/rootFolder/4?timeout=false: 200.OK (61 ms)
+2023-01-15 03:50:31.3|Debug|Api|[GET] /api/v3/rootFolder/4?timeout=false: 200.OK (61 ms)
+2023-01-15 03:50:31.4|Trace|Http|Req: 12781 [GET] /api/v3/movie/lookup?term=1%20Stargate%20(1994)%20Film%20720p (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:31.4|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:31.4|Debug|Parser|Parsing string '1 Stargate (1994) Film 720p'
+2023-01-15 03:50:31.4|Trace|Parser|^(?<title>(?![(\[]).+?)?(?:(?:[-_\W](?<![)\[!]))*(?<year>(1(8|9)|20)\d{2}(?!p|i|(1(8|9)|20)\d{2}|\]|\W(1(8|9)|20)\d{2})))+(\W+|_|$)(?!\\)
+2023-01-15 03:50:31.4|Debug|Parser|Movie Parsed. 1 Stargate - 1994 
+2023-01-15 03:50:31.4|Debug|Parser|Release Group parsed: 
+2023-01-15 03:50:31.4|Debug|Parser|Languages parsed: Unknown
+2023-01-15 03:50:31.4|Debug|QualityParser|Trying to parse quality for 1 Stargate (1994) Film 720p
+2023-01-15 03:50:31.4|Debug|Parser|Quality parsed: HDTV-720p v1
+2023-01-15 03:50:31.4|Debug|Parser|Edition parsed: 
+2023-01-15 03:50:31.4|Trace|HttpClient|Req: [GET] https://api.radarr.video/v1/search?q=1%2Bstargate&year=1994
+2023-01-15 03:50:31.4|Trace|ConfigService|Using default config value for 'proxyenabled' defaultValue:'False'
+2023-01-15 03:50:32.4|Trace|HttpClient|Res: [GET] https://api.radarr.video/v1/search?q=1%2Bstargate&year=1994: 200.OK (2 bytes) (966 ms)
+2023-01-15 03:50:32.4|Trace|Http|Res: 12781 [GET] /api/v3/movie/lookup?term=1%20Stargate%20(1994)%20Film%20720p: 200.OK (985 ms)
+2023-01-15 03:50:32.4|Debug|Api|[GET] /api/v3/movie/lookup?term=1%20Stargate%20(1994)%20Film%20720p: 200.OK (985 ms)
+2023-01-15 03:50:33.6|Trace|Http|Req: 12782 [GET] /api/v3/movie/lookup?term=10%20Cloverfield%20Lane%20(2016) (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:33.6|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:33.6|Debug|Parser|Parsing string '10 Cloverfield Lane (2016)'
+2023-01-15 03:50:33.6|Trace|Parser|^(?<title>(?![(\[]).+?)?(?:(?:[-_\W](?<![)\[!]))*(?<year>(1(8|9)|20)\d{2}(?!p|i|(1(8|9)|20)\d{2}|\]|\W(1(8|9)|20)\d{2})))+(\W+|_|$)(?!\\)
+2023-01-15 03:50:33.6|Debug|Parser|Movie Parsed. 10 Cloverfield Lane - 2016 
+2023-01-15 03:50:33.6|Debug|Parser|Release Group parsed: 
+2023-01-15 03:50:33.7|Debug|Parser|Languages parsed: Unknown
+2023-01-15 03:50:33.7|Debug|QualityParser|Trying to parse quality for 10 Cloverfield Lane (2016)
+2023-01-15 03:50:33.7|Debug|Parser|Quality parsed: Unknown v1
+2023-01-15 03:50:33.7|Debug|Parser|Edition parsed: 
+2023-01-15 03:50:33.7|Trace|HttpClient|Req: [GET] https://api.radarr.video/v1/search?q=10%2Bcloverfield%2Blane&year=2016
+2023-01-15 03:50:33.7|Trace|ConfigService|Using default config value for 'proxyenabled' defaultValue:'False'
+2023-01-15 03:50:34.7|Trace|HttpClient|Res: [GET] https://api.radarr.video/v1/search?q=10%2Bcloverfield%2Blane&year=2016: 200.OK (40738 bytes) (1025 ms)
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'availabilitydelay' defaultValue:'0'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:34.7|Trace|Http|Res: 12782 [GET] /api/v3/movie/lookup?term=10%20Cloverfield%20Lane%20(2016): 200.OK (1061 ms)
+2023-01-15 03:50:34.7|Debug|Api|[GET] /api/v3/movie/lookup?term=10%20Cloverfield%20Lane%20(2016): 200.OK (1061 ms)
+2023-01-15 03:50:34.8|Trace|Http|Req: 12783 [GET] /api/v3/movie/lookup?term=10%20Years%20(2011)%20%5B1080p%5D (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:34.8|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:34.8|Debug|Parser|Parsing string '10 Years (2011) [1080p]'
+2023-01-15 03:50:34.8|Trace|Parser|^(?<title>(?![(\[]).+?)?(?:(?:[-_\W](?<![)\[!]))*(?<year>(1(8|9)|20)\d{2}(?!p|i|(1(8|9)|20)\d{2}|\]|\W(1(8|9)|20)\d{2})))+(\W+|_|$)(?!\\)
+2023-01-15 03:50:34.8|Debug|Parser|Movie Parsed. 10 Years - 2011 
+2023-01-15 03:50:34.8|Debug|Parser|Release Group parsed: 1080p
+2023-01-15 03:50:34.8|Debug|Parser|Languages parsed: Unknown
+2023-01-15 03:50:34.8|Debug|QualityParser|Trying to parse quality for 10 Years (2011) [1080p]
+2023-01-15 03:50:34.8|Debug|Parser|Quality parsed: HDTV-1080p v1
+2023-01-15 03:50:34.8|Debug|Parser|Edition parsed: 
+2023-01-15 03:50:34.8|Trace|HttpClient|Req: [GET] https://api.radarr.video/v1/search?q=10%2Byears&year=2011
+2023-01-15 03:50:34.8|Trace|ConfigService|Using default config value for 'proxyenabled' defaultValue:'False'
+2023-01-15 03:50:35.8|Trace|HttpClient|Res: [GET] https://api.radarr.video/v1/search?q=10%2Byears&year=2011: 200.OK (51067 bytes) (979 ms)
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'certificationcountry' defaultValue:'US'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'certificationcountry' defaultValue:'US'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'certificationcountry' defaultValue:'US'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'availabilitydelay' defaultValue:'0'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'availabilitydelay' defaultValue:'0'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'availabilitydelay' defaultValue:'0'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'availabilitydelay' defaultValue:'0'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|ConfigService|Using default config value for 'movieinfolanguage' defaultValue:'1'
+2023-01-15 03:50:35.8|Trace|Http|Res: 12783 [GET] /api/v3/movie/lookup?term=10%20Years%20(2011)%20%5B1080p%5D: 200.OK (1023 ms)
+2023-01-15 03:50:35.8|Debug|Api|[GET] /api/v3/movie/lookup?term=10%20Years%20(2011)%20%5B1080p%5D: 200.OK (1023 ms)
+2023-01-15 03:50:35.9|Trace|Http|Req: 12784 [GET] /api/v3/movie/lookup?term=13%20Going%20On%2030%20(2004)%20%5B1080p%5D%20%5BYTS.AG%5D (from ::1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36)
+2023-01-15 03:50:35.9|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2023-01-15 03:50:35.9|Debug|Parser|Parsing string '13 Going On 30 (2004) [1080p] [YTS.AG]'
+2023-01-15 03:50:35.9|Trace|Parser|^(?<title>(?![(\[]).+?)?(?:(?:[-_\W](?<![)\[!]))*(?<year>(1(8|9)|20)\d{2}(?!p|i|(1(8|9)|20)\d{2}|\]|\W(1(8|9)|20)\d{2})))+(\W+|_|$)(?!\\)
